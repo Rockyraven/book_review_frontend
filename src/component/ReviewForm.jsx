@@ -21,7 +21,7 @@ const ReviewForm = ({bookId}) => {
     console.log( comment,
       rating, bookId)
     try {
-      const response = await axios.post(`http://localhost:5000/api/review/${bookId}`, {
+      const response = await axios.post(`https://book-reviews-dc20.onrender.com/api/review/${bookId}`, {
         comment,
         rating,
       }, {

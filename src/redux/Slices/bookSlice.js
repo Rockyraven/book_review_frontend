@@ -7,7 +7,7 @@ export const fetchbookData = createAsyncThunk(
   async (thunkAPI) => { // Accept limit parameter
     try {
       const response = await axios.get(
-        "http://localhost:5000/api/getbook",
+        "https://book-reviews-dc20.onrender.com/api/getbook",
         {
           headers: {
             "Content-Type": "application/json",

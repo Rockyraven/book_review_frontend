@@ -8,7 +8,7 @@ export const loginUser = createAsyncThunk(
   async (credentials, thunkAPI) => {
     try {
       const response = await axios.post(
-        "http://localhost:5000/user/signin",
+        "https://book-reviews-dc20.onrender.com/user/signin",
         credentials,
         {
           headers: {
@@ -31,7 +31,7 @@ export const signupUser = createAsyncThunk(
   async (userData, thunkAPI) => {
     try {
       const response = await axios.post(
-        "http://localhost:5000/user/signup",
+        "https://book-reviews-dc20.onrender.com/user/signup",
         userData,
         {
           headers: {
