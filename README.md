@@ -1,70 +1,48 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Book Review
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+This project is a book review application that allows users to review books and integrates with Google Calendar for event reminders.
 
-### `npm start`
+## Key Features Implemented
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **User Authentication and Authorization**
+   - Secure user login and registration.
+   - Role-based access control.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Integration with Google Calendar for Event Reminders**
+   - Users can set reminders for book reviews and other events.
 
-### `npm test`
+3. **CRUD Operations for Book Reviews**
+   - Users can Create, Read, Update, and Delete book reviews.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Responsive Design using React.js**
+   - The frontend is built with React.js and is fully responsive.
 
-### `npm run build`
+5. **Backend Development**
+   - The backend is developed using Node.js, Express.js, and MongoDB.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. **Error Handling and Validation**
+   - Comprehensive error handling and validation implemented on both frontend and backend.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Frontend
 
-### `npm run eject`
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Rockyraven/book_review_frontend.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pages :- 
+Login:- ![image](https://github.com/Rockyraven/book_review_frontend/assets/89784704/7c882eb5-97ca-46ec-b207-7e467ccf7068)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Register:- ![image](https://github.com/Rockyraven/book_review_frontend/assets/89784704/a26efa73-85a5-461a-8e38-ecdfb87cd185)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Homepage:- 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+BookDetailpage:- ![image](https://github.com/Rockyraven/book_review_frontend/assets/89784704/0e410c52-a75f-4705-93d2-b63b22f5f11f)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
