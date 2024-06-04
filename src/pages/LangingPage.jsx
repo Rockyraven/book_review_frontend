@@ -28,12 +28,12 @@ export const LandingPage = () => {
 
     //filter by ctc 
     if (selectedRating) {
-      filteredBooks = filteredBooks.filter(book => book?.minExp <= selectedRating && book?.maxExp >= selectedRating)
+      filteredBooks = filteredBooks.filter(book => book?.minExp <= selectedRating )
     }
 
     //searching 
     if (searchString) {
-      filteredBooks = filteredBooks.filter(book => book?.companyName?.toLowerCase()?.includes(searchString?.toLowerCase()))
+      filteredBooks = filteredBooks.filter(book => book?.title?.toLowerCase()?.includes(searchString?.toLowerCase()))
     }
     return filteredBooks;
   }
